@@ -10,8 +10,47 @@
 <body>
 
     
+    <div class="container">
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Month</th>
+                        <th>Sales</th>
+                        <th>Customer</th>
+                    </tr>
+                </thead>
+                <tbody id="output"></tbody>
+            </table>
+        </div>
 
+        <div class="right-side">
+            <h1>Dashboard</h1>
 
+            <div class="cards">
+
+                <div class="stat-card">
+                    <h3>Total sales</h3>
+                    <p id="total-sales">$0</p>
+                </div>
+
+                <div class="stat-card">
+                    <h3>Total Customers</h3>
+                    <p id="total-customers"></p>
+                </div>
+            </div>
+
+            <div class="chart">
+                <h3>Chart</h3>
+                <p>The chart displays the monthly sales so you can easily see how they go up or down over time. </p>
+                <div class="charted-box">
+                    <canvas id="saleschart"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script scr="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script scr="/script.js"></script>
 </body>
 </html>
