@@ -1,0 +1,97 @@
+body {
+    font-family: "Comic Sans MS";
+    padding: 20px;
+    background-color: #fffdf8;
+    color: black;
+    margin: 0;
+}
+.container {
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    gap: 20px;
+    align-items: start;
+    background-color: #fffdf8;
+    padding: 30px;
+    margin: 0;
+}
+.table,
+.stat-card,
+.chart {
+    background-color: #fffdf8;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    box-sizing: border-box;
+    margin: 0;
+}
+.chart-box{
+    min-height:290px;
+    margin: 0;
+    padding: 0%;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0%;
+}
+th {
+    text-align: left;
+    padding: 12px 10px;
+    font-size: 13px;
+    color: #414040;
+    border-bottom: 2px solid #eee;
+    margin: 0;
+    }
+td {
+    padding: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid #f0f0f0;
+    margin: 0;
+}
+td:nth-child(2),
+td:nth-child(3) {
+    text-align: right;
+    font-weight: 600;
+}
+td:first-child {
+    color: #333;
+    font-weight: 500;
+}
+tr:hover {
+    background-color: #f9f6ef;
+    transition: 0.2s;
+}
+h2 {
+    margin-top: 0;
+}
+.right-side h1 {
+    margin-top: 0;
+}
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    padding: 0%;
+}
+.stat-card {
+    width: 180px;
+    min-height: 140px;
+    margin: 0;
+    padding: 0%;
+}
+.stat-card h3 {
+    margin: 0 0 15px 0;
+    font-size: 16px;
+}
+.stat-card h5 {
+    margin: 0 0 5px 0;
+    padding: 0%;
+}
+.stat-card p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0%;
+}
