@@ -1,0 +1,87 @@
+date,category,description,amount,type
+2026-06-01,Income,Part-time job,310.00,income
+2026-06-02,Food,Coffee,4.20,expense
+2026-06-03,Transport,Bus fare,3.50,expense
+2026-06-04,Shopping,Clothes,42.99,expense
+2026-06-05,Subscriptions,Music subscription,10.99,expense
+2026-06-06,Food,Lunch,8.75,expense
+2026-06-08,Entertainment,Cinema,13.50,expense
+2026-06-09,Transport,Train ticket,17.40,expense
+2026-06-10,Food,Groceries,24.60,expense
+2026-06-12,Shopping,Hair products,15.99,expense
+2026-06-14,Food,Cafe,6.30,expense
+2026-06-15,Savings,Savings transfer,75.00,saving
+2026-06-17,Transport,Bus fare,3.50,expense
+2026-06-18,Entertainment,Game,19.99,expense
+2026-06-20,Food,Takeaway,14.25,expense
+2026-06-22,Shopping,Stationery,9.80,expense
+2026-06-24,Subscriptions,Cloud storage,2.99,expense
+2026-06-26,Food,Lunch,7.90,expense
+2026-06-28,Income,Part-time job,338.00,income
+2026-06-29,Savings,Savings transfer,100.00,saving
+2026-06-30,Food,Coffee,3.95,expense
+2026-07-01,Transport,Bus fare,3.50,expense
+2026-07-02,Food,Lunch,9.20,expense
+2026-07-03,Shopping,Backpack,39.99,expense
+2026-07-04,Entertainment,Cinema,12.50,expense
+2026-07-05,Food,Groceries,28.40,expense
+2026-07-07,Transport,Train ticket,21.60,expense
+2026-07-08,Subscriptions,Music subscription,10.99,expense
+2026-07-09,Food,Cafe,5.80,expense
+2026-07-11,Shopping,Clothes,54.00,expense
+2026-07-12,Food,Takeaway,16.40,expense
+2026-07-14,Transport,Bus fare,3.50,expense
+2026-07-15,Savings,Savings transfer,60.00,saving
+2026-07-16,Entertainment,Game,14.99,expense
+2026-07-18,Food,Lunch,8.30,expense
+2026-07-19,Shopping,Accessories,12.50,expense
+2026-07-21,Transport,Train ticket,18.90,expense
+2026-07-22,Food,Groceries,31.25,expense
+2026-07-24,Subscriptions,Cloud storage,2.99,expense
+2026-07-25,Entertainment,Bowling,15.00,expense
+2026-07-26,Food,Coffee,4.50,expense
+2026-07-28,Income,Part-time job,285.00,income
+2026-07-29,Savings,Savings transfer,80.00,saving
+2026-07-30,Shopping,Clothes,35.99,expense
+2026-07-31,Food,Dinner,12.80,expense
+2026-08-01,Transport,Bus fare,3.50,expense
+2026-08-02,Food,Lunch,7.75,expense
+2026-08-03,Shopping,Hair dye,11.99,expense
+2026-08-04,Food,Coffee,4.10,expense
+2026-08-05,Entertainment,Cinema,14.00,expense
+2026-08-06,Transport,Train ticket,22.50,expense
+2026-08-07,Subscriptions,Music subscription,10.99,expense
+2026-08-08,Food,Groceries,27.80,expense
+2026-08-10,Shopping,Clothes,48.50,expense
+2026-08-11,Food,Cafe,6.75,expense
+2026-08-12,Transport,Bus fare,3.50,expense
+2026-08-13,Income,Bonus payment,50.00,income
+2026-08-14,Entertainment,Game,24.99,expense
+2026-08-15,Savings,Savings transfer,100.00,saving
+2026-08-16,Food,Takeaway,15.70,expense
+2026-08-18,Transport,Train ticket,19.40,expense
+2026-08-19,Food,Lunch,8.60,expense
+2026-08-20,Shopping,Stationery,13.25,expense
+2026-08-21,Subscriptions,Cloud storage,2.99,expense
+2026-08-22,Food,Coffee,4.30,expense
+2026-08-23,Entertainment,Beach trip,17.00,expense
+2026-08-24,Shopping,Laptop bag,45.00,expense
+2026-08-25,Transport,Bus fare,3.50,expense
+2026-08-26,Food,Groceries,29.60,expense
+2026-08-27,Shopping,Shoulder bag,32.00,expense
+2026-08-28,Income,Part-time job,372.00,income
+2026-08-29,Savings,Savings transfer,120.00,saving
+2026-08-30,Food,Dinner,13.50,expense
+2026-08-31,Entertainment,Streaming rental,5.99,expense
+2026-09-01,Transport,Bus fare,3.50,expense
+2026-09-02,Shopping,Haircut,99.00,expense
+2026-09-02,Transport,Bus fare,4.00,expense
+2026-09-03,Food,Coffee,4.50,expense
+2026-09-04,Food,Groceries,26.80,expense
+2026-09-05,Subscriptions,Music subscription,10.99,expense
+2026-09-05,Food,Lunch,8.40,expense
+2026-09-06,Entertainment,Snacks,20.00,expense
+2026-09-07,Transport,Bus fare,3.50,expense
+2026-09-07,Food,Cafe,6.20,expense
+2026-09-08,Savings,Savings transfer,50.00,saving
+2026-09-08,Food,Lunch,7.90,expense
