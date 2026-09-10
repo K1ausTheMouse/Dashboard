@@ -8,16 +8,13 @@ def home():
 def get_data():
    df = pd.read_csv("data.csv") # read the csv
 
-   # order the months as flask puts then alphabetically
-   month_order = [
-       "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
-   ]
+   # turns date into actual dates 
+   df["date"] = pd.to_datetime(df["date"])
 
-   # months sorted
-   df["Month"] = pd.Categorical(df["Month"], categories=month_order, ordered=True)
+   # create a month colmn from the date easy to read
+   df["month"] = df["date"].dt.strftime("%B")
 
-   # group by data sorting
-   grouped = df.groupby("Month")[["Sales", "Customers"]].sum()
-   return jsonify(grouped.reset_index().to_dict(orient="records"))
-if __name__ == "__main__":
-   app.run(debug=True)
+   # total amoun for each month and income/expense
+   grouped = df.groupby(["month", "type"])["amount"].sum().reset_index()
+
+   return jsonify(grouped.to.dict(orient="records"))
