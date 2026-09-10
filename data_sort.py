@@ -17,4 +17,5 @@ def get_data():
    # total amoun for each month and income/expense
    grouped = df.groupby(["month", "type"])["amount"].sum().reset_index()
 
-   return jsonify(grouped.to.dict(orient="records"))
+   
+   grouped.to_dict(orient="records")
